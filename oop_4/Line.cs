@@ -10,22 +10,22 @@ namespace oop_4_cs
         {
             line = new char[] {'Y', 'e', 's', ',', ' ', 'I', ' ', 'a', 'm', ' ',
                 'f', 'r', 'o', 'm', ' ', 'I', 'S', '-', '0', '1' };
-            length = Length(line);
+            length = Length();
         }
         // Конструктор з параметрами
         public Line(char[] line)
         {
             this.line = line;
-            length = Length(line);
+            length = Length();
         }
         // Конструктор копіювання
-        public Line(Line line)
+        public Line(Line obj)
         {
-            this.line = line.line;
-            length = line.length;
+            this.line = obj.line;
+            length = obj.length;
         }
         // Метод обчислення довжини рядка
-        private int Length(char[] line)
+        public int Length()
         {
             int length = 0;
             foreach(char item in line)
