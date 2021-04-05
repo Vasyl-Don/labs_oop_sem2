@@ -20,11 +20,11 @@ namespace oop_4_cs
             Console.WriteLine(S3.GetLine());
 
             S2 = S2 - '#';
-            Console.Write("\nS2 = ");
+            Console.Write("\nS2 - '#' = ");
             Console.WriteLine(S2.GetLine());
 
             S1 = S2 + S3;
-            Console.Write("\nS1 = ");
+            Console.Write("\nS2 + S3 = ");
             Console.WriteLine(S1.GetLine());
         }
     }
