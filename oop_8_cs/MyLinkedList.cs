@@ -8,7 +8,6 @@
         public Node Head { get { return head; } }
         public int Count { get { return count; } }
         public bool IsEmpty { get { return count == 0; } }
-
         public void AddFirst(short value)
         {
             Node node = new Node(value);
@@ -18,7 +17,6 @@
                 tail = head;
             count++;
         }
-
         public bool Remove(short value)
         {
             Node current = head;

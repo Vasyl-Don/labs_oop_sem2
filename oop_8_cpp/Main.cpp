@@ -28,9 +28,7 @@ int main()
 
 int MultipleOfThree(MyLinkedList list)
 {
-    ///<summary>
-    /// Returns number of elements multiple of three in the list
-    ///</summary>
+    // Returns number of elements multiple of three in the list
     int count = 0;
     Node* current = list.Head();
     while (current != NULL)
@@ -43,9 +41,7 @@ int MultipleOfThree(MyLinkedList list)
 }
 void DeleteMoreThanAverage(MyLinkedList list)
 {
-    ///<summary>
-    /// Removes all elements more than average number from the list
-    ///</summary>
+    // Removes all elements more than average number from the list
     Node* current = list.Head();
     short sum = 0;
     while (current != NULL)
