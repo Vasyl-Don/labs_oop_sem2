@@ -28,11 +28,11 @@ namespace oop_8_cs
             mylist.Clear();
             Console.WriteLine("Is the list empty? " + mylist.IsEmpty);
         }
-        static int MultipleOfThree(MyLinkedList list)
-        {
             ///<summary>
             /// Returns number of elements multiple of three in the list
             ///</summary>
+        static int MultipleOfThree(MyLinkedList list)
+        {
             int count = 0;
             Node current = list.Head;
             while (current != null)
@@ -43,11 +43,11 @@ namespace oop_8_cs
             }
             return count;
         }
-        static void DeleteMoreThanAverage(MyLinkedList list)
-        {
             ///<summary>
             /// Removes all elements more than average number from the list
             ///</summary>
+        static void DeleteMoreThanAverage(MyLinkedList list)
+        {
             Node current = list.Head;
             short sum = 0;
             while(current != null)
