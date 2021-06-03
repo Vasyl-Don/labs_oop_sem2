@@ -1,0 +1,7 @@
+D:\prog_kpi\oop\oop_9\oop_9_cs\bin\Debug\oop_9_cs.exe.config
+D:\prog_kpi\oop\oop_9\oop_9_cs\bin\Debug\oop_9_cs.exe
+D:\prog_kpi\oop\oop_9\oop_9_cs\bin\Debug\oop_9_cs.pdb
+D:\prog_kpi\oop\oop_9\oop_9_cs\obj\Debug\oop_9_cs.csproj.CoreCompileInputs.cache
+D:\prog_kpi\oop\oop_9\oop_9_cs\obj\Debug\oop_9_cs.exe
+D:\prog_kpi\oop\oop_9\oop_9_cs\obj\Debug\oop_9_cs.pdb
+D:\prog_kpi\oop\oop_9\oop_9_cs\obj\Debug\oop_9_cs.csprojAssemblyReference.cache
